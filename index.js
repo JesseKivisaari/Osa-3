@@ -84,9 +84,9 @@ app.post('/api/persons', (request, response, next) => {
     number: body.number,
     id: generateId(100),
   })
-  person.save(function (err) {
-    console.log(err);
-  });
+  // person.save(function (err) {
+  //   console.log(err);
+  // })
   person.save().then(savedPerson => {
     response.json(savedPerson.toJSON())
   })
