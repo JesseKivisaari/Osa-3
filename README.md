@@ -1,1 +1,1 @@
-https://shielded-forest-52484.herokuapp.com/api/persons
+https://shielded-forest-52484.herokuapp.com
